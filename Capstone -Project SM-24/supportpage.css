@@ -1,0 +1,67 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav-bar{
+    background-color: rgb(179, 179, 248);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+   
+}
+
+.globe {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 19%
+}
+
+img {
+    display: flex;
+    justify-content: end;
+    width: 55px;
+    height: 50px;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+    width: 40%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a :hover{
+    color: green;
+}
+
+.support-main {
+    display: flex;
+}
+.support-1 {
+    justify-content: space-around;
+    flex-direction: row;
+    color: blue;
+}
+.support-2 {
+    color: aquamarine;
+}
+.support-3{
+    color: red;
+}
+
+
+
+
+
+
+
