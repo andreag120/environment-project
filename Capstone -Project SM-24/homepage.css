@@ -1,5 +1,6 @@
 body {
     margin: 0 auto;
+    background-color: brown;
     background-image: url(https://i.pinimg.com/736x/1f/c2/13/1fc213a3554b3ec74985db5d247bd056.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,4 +52,103 @@ a :hover{
     display: flex;
     justify-content: center;
     color: aliceblue;
+}
+
+
+.nav-bar{
+    background-color: rgb(179, 179, 248);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a :hover{
+    color: green;
+}
+
+.globe {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 19%
+}
+
+img {
+    display: flex;
+    justify-content: end;
+    width: 55px;
+    height: 50px;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+    width: 40%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.info-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.About-container {
+    background-color: powderblue;
+    color: darkgoldenrod;
+    justify-content: center;
+    align-items: center;
+}
+.uses-container {
+    background-color: blue
+}
+.us-container {
+    background-color: lightskyblue;
+}
+.Abouts-container {
+    background-color: khaki;
+}
+.bluey {
+    background-color: lawngreen;
+}
+.bluey:hover {
+    background-color: aqua;
+}
+.puley {
+    background-color: powderblue;
+}
+.puley:hover {
+    background-color: crimson;
+}
+.glery {
+    background-color: aquamarine;
+}
+.glery:hover {
+    background-color: darkslateblue;
+}
+.terli {
+    background-color: blueviolet;
+}
+.terli:hover {
+    background-color: coral;
+}
+
+.img-container > img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 25px;
+    height: 100px;
+    width: 90px;
 }
