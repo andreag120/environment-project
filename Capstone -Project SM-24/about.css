@@ -207,3 +207,9 @@ a :hover {
 iframe {
     width: 400px;
 }
+
+footer{
+    color: white;
+    padding-top: 15px;
+    background-color: rgb(32, 31, 31);
+}
