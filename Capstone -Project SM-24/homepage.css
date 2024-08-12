@@ -1,25 +1,26 @@
 body {
     margin: 0 auto;
-    background-image: url(https://i.pinimg.com/736x/1f/c2/13/1fc213a3554b3ec74985db5d247bd056.jpg);
+    background-image: url(https://www.emeraldgrouppublishing.com/sites/default/files/image/environment-sustainability-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
-
-.nav-bar{
-    background-color: rgb(179, 179, 248);
+.nav-bar {
+    background-color: rgb(107, 116, 205);
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 80px;
-   
 }
 
 .globe {
+    color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 19%
 }
 
@@ -43,13 +44,72 @@ a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-a :hover{
+a :hover {
     color: green;
 }
 
-.Welcome{
+.Welcome {
     display: flex;
     justify-content: center;
     color: aliceblue;
 }
 
+.info-fact {
+    color: white;
+    margin: 0 auto;
+    background-color: rgba(98, 102, 103, 0.71);
+    padding: 40px;
+    width: 60%;
+    height: 40%;
+    border: rgba(62, 216, 62, 0.404);
+    border-radius: 30px;
+}
+.tal-box {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.live-count {
+    display: flex;
+    justify-content: center;
+}
+
+.info-2 {
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    width: 65%;
+    height: 200px;
+    background-color: rgba(98, 102, 103, 0.655);
+    border-radius: 30px;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+
+.animal-container {
+    color: white;
+    height:160px;
+    width: 45%;
+    background-color: rgba(98, 102, 103, 0.655);
+    border-radius: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.animal {
+   display: flex; 
+   justify-content: center;
+    
+}
+.animal > img {
+    display: flex;
+    width: 300px;
+    height: 250px;
+}

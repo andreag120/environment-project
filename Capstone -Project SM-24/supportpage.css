@@ -1,28 +1,77 @@
 body {
-    width: 100%;
     margin: 0 auto;
+    background-image: url("images/earth.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: red;
 }
 
-.nav-bar{
-    background-color: rgb(179, 179, 248);
+.main-support {
+    background-color: rgba(0, 0, 255, 0.278);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 1px 1px black;
+}
+
+.support-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    text-align: center;
+    text-shadow: 1px 1px black;
+
+}
+
+.support-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+
+.support-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.nav-bar {
+    background-color: rgb(107, 116, 205);
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 80px;
-   
+    padding-top: 8px;
 }
 
 .globe {
+    color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 19%
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 19%;
 }
 
-img {
-    display: flex;
-    justify-content: end;
+.world {
     width: 55px;
     height: 50px;
 }
@@ -40,28 +89,11 @@ a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-a :hover{
+a :hover {
     color: green;
 }
 
-.support-main {
-    display: flex;
+.monkey {
+    width: 53px;
+    height: 55px;
 }
-.support-1 {
-    justify-content: space-around;
-    flex-direction: row;
-    color: blue;
-}
-.support-2 {
-    color: aquamarine;
-}
-.support-3{
-    color: red;
-}
-
-
-
-
-
-
-
